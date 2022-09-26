@@ -159,3 +159,7 @@ Save the file and stop Apache then start again, now that you are all set:
 ```
 brew services restart httpd
 ```
+
+### References:
+- [macOS 12.0 Monterey Apache Setup: Multiple PHP Versions](https://getgrav.org/blog/macos-monterey-apache-multiple-php-versions)
+- [Create PHP apps using SQL Server on macOS] (https://www.microsoft.com/en-us/sql-server/developer-get-started/php/mac)
