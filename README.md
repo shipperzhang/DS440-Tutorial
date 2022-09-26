@@ -135,7 +135,7 @@ ServerName localhost
 ### Apache PHP Setup (Also works for Windows)
 Below the uncomment `mod_rewrite.so` line, you add the following `libphp` modules:
 ```
-LoadModule php_module /opt/homebrew/opt/php@8.0/lib/httpd/modules/libphp.so
+LoadModule php_module /usr/local/opt/php@8.1/lib/httpd/modules/libphp.so
 ```
 Also you must set the Directory Indexes for PHP explicitly, so search for this block:
 ```
